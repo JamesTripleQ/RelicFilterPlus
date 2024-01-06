@@ -1,0 +1,16 @@
+{
+  "modid": "RelicFilter",
+  "name": "Relic Filter+",
+  "author_list": [
+    "mrdelish",
+    "JamesTripleQ"
+  ],
+  "description": "Filter out relics or change their tier.",
+  "dependencies": [
+    "basemod"
+  ],
+  "credits": "Config button code from Replay The Spire by The_Evil_Pickle.",
+  "version": "2.0",
+  "sts_version": "12-18-2022",
+  "mts_version": "3.18.2"
+}
