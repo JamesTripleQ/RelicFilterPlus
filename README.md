@@ -1,5 +1,5 @@
 # Relic Filter+
-An unofficial update to Relic Filter (https://steamcommunity.com/sharedfiles/filedetails/?id=1632445960).
+An unofficial update to [Relic Filter](https://steamcommunity.com/sharedfiles/filedetails/?id=1632445960).
 All credit for the original mod and code goes to mrdelish.
 
 Fixes Watcher relics not spawning, relics with the same name not being loaded into the filter list, hitboxes having a wrong offset and many other things.
