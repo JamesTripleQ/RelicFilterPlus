@@ -34,16 +34,9 @@ public class RelicSettingsButton implements IUIElement {
     public static RelicSettingsButton activeButton;
     public Texture image;
     public Texture outline;
-    public Texture overlay_deprecated;
-    public Texture overlay_changed_value;
-    public Texture overlay_default_value;
-    public Texture overlay_increased_tier;
-    public Texture overlay_decreased_tier;
-    public Texture overlay_common;
-    public Texture overlay_uncommon;
-    public Texture overlay_rare;
-    public Texture overlay_boss;
-    public Texture overlay_shop;
+    public static Texture overlay_deprecated = new Texture("images/deprecated_x.png");
+    public static Texture overlay_increased_tier = new Texture("images/increased_tier.png");
+    public static Texture overlay_decreased_tier = new Texture("images/lowered_tier.png");
     public float x;
     public float y;
     public float w;
@@ -83,16 +76,6 @@ public class RelicSettingsButton implements IUIElement {
         w *= 1.5F;
         h *= 1.5F;
         if (!UnlockTracker.isRelicSeen(relic.relicId)) rendColor = Color.BLACK;
-        overlay_deprecated = new Texture("images/deprecated_x.png");
-        overlay_changed_value = new Texture("images/overlay_changed_value.png");
-        overlay_default_value = new Texture("images/overlay_default_value.png");
-        overlay_increased_tier = new Texture("images/increased_tier.png");
-        overlay_decreased_tier = new Texture("images/lowered_tier.png");
-        overlay_common = new Texture("images/tier_common.png");
-        overlay_uncommon = new Texture("images/tier_uncommon.png");
-        overlay_rare = new Texture("images/tier_rare.png");
-        overlay_boss = new Texture("images/tier_boss.png");
-        overlay_shop = new Texture("images/tier_shop.png");
     }
 
     public RelicSettingsButton(Texture image, Texture outline, float x, float y, float width, float height, List<IUIElement> elements) {
